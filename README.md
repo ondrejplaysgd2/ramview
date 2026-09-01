@@ -1,5 +1,7 @@
 # ramview — Windows Memory Viewer
 
+Note: the releases contain a 7-Zip self extracting archive that extract a full Python 3.14 installation as well as my program.
+
 View raw bytes loaded in memory, either from a running process (virtual memory)
 or directly from physical RAM.
 
