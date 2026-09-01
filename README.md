@@ -78,7 +78,7 @@ python ramview.py -d                     # interactive physical viewer
    Binalyze kernel driver.
 3. Install the driver and leave it loaded:
    ```
-   go-winpmem.exe install
+   go-winpmem_amd64_1.0-rc2_signed.exe install
    ```
    This creates and starts the `winpmem` service, exposing the `\\.\pmem`
    device this script reads through. Verify with `sc query winpmem` (should be
@@ -90,7 +90,7 @@ This script auto-detects `\\.\PhysicalMemory`, `\\.\NtPhysicalMemory`,
 To unload the driver when done:
 
 ```
-go-winpmem.exe uninstall
+go-winpmem_amd64_1.0-rc2_signed.exe uninstall
 ```
 
 Note: the older `winpmem_mini_x64_rc2.exe` imager does not reliably acquire
