@@ -110,4 +110,4 @@ physical RAM can trigger antivirus safeguards and may only be possible from an
 elevated context. Use it only on systems/processes you are authorized to inspect.
 
 ## License
-Licensed using the [`MIT License`](https://github.com/ondrejplaysgd2/ramview).
+Licensed using the [`MIT License`](https://github.com/ondrejplaysgd2/ramview/blob/main/LICENSE).
